@@ -1,1 +1,13 @@
-console.log("Hello, World!");
+let number = 0;
+
+const button = document.querySelector("#button");
+const display = document.querySelector("#display");
+
+button.addEventListener("click", () => {
+  number++;
+  display.textContent = number;
+});
+
+// for (let element of document.all) {
+//   console.log(element);
+// }
